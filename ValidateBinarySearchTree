@@ -11,25 +11,33 @@
  */
 class Solution {
 public:
-    bool solve(TreeNode* lroot, TreeNode* rroot){
-        
+    bool isValidBST(TreeNode* root) {
+        int min, max;
+        return isValidBSThelper(root, min, max);
     }
- 
-    
-    bool isSymmetric(TreeNode* root) {
-        if(!root) return true;
-        if (!root->left && !root->right) return true;
-        while(true) {
-            bool c = (root->left == root->right);
-            if (!c) return false;
-            else {
-                bool a = root->left->left == root->right->right;
-                bool b = root->left->right == root->right->left;
-                if(!(a&&b)) return false;
-                else {
-                    
-                }
-            }
+    bool isValidBSThelper(TreeNode* Node, int &min, int &max) {
+        if (!Node->left && !Node->right) {
+            min = max = Node->val;
+            return true;
         }
+        int min_left=Node->val, max_left=Node->val, min_right=Node->val, max_right=Node->val;
+        bool q_left=true, q_right=true;
+        if (Node->left) {
+            if(Node->left->val >= Node->val) {
+                return false;
+            }
+            q_left = (isValidBSThelper(Node->left, min_left, max_left));
+            if (Node->val<=max_left) return false;
+        }
+        if (Node->right) {
+            if(Node->right->val <= Node->val) {
+                return false;
+            }
+            q_right = (isValidBSThelper(Node->right, min_right, max_right));
+            if (Node->val>=min_right) return false;
+        }
+        min = min_left;
+        max = max_right;
+        return (q_left && q_right);
     }
 };
