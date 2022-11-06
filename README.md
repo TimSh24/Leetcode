@@ -9,3 +9,4 @@ C++ solutions of some LeetCode problems
 | 3   | [Lowest common ancestor of a binary tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)               | [LowestCommonAncestor.cpp](LowestCommonAncestor.cpp)                                                                                   |
 | 4   | [Path Sum](https://leetcode.com/problems/path-sum/)                                                                            | [PathSum.cpp](PathSum.cpp)                                                                                                                    |
 | 5   | [Spiral matrix](https://leetcode.com/problems/spiral-matrix/)                                                           | [Spiral_Matrix.cpp](Spiral_Matrix.cpp)
+| 6   | [Pascal's triangle](https://leetcode.com/problems/pascals-triangle/)                                                           | [Pascals_triangle.cpp](Pascals_triangle.cpp)
