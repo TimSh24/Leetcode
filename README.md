@@ -10,4 +10,4 @@ C++ solutions of some LeetCode problems
 | 4   | [Path Sum](https://leetcode.com/problems/path-sum/)                                                                            | [PathSum.cpp](PathSum.cpp)                                                                                                                    |
 | 5   | [Spiral matrix](https://leetcode.com/problems/spiral-matrix/)                                                           | [Spiral_Matrix.cpp](Spiral_Matrix.cpp)
 | 6   | [Pascal's triangle](https://leetcode.com/problems/pascals-triangle/)                                                           | [Pascals_triangle.cpp](Pascals_triangle.cpp)                    
-| 7   | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                          | [Two Sum II - Input Array Is Sorted.cpp](Two Sum II - Input Array Is Sorted.cpp)
+| 7   | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)| [Two Sum II - Input Array Is Sorted.cpp](Two Sum II - Input Array Is Sorted.cpp)
