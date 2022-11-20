@@ -13,3 +13,4 @@ C++ solutions of some LeetCode problems
 | 7   | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                                                             | [Two_Sum_II.cpp](Two_Sum_II.cpp)                                                                           |
 | 8   | [Array Partition](https://leetcode.com/problems/array-partition/)                                                             | [Array_partition_I.cpp](Array_partition_I.cpp)                                                                                                              |
 | 9   | [Pascal's triangle_II](https://leetcode.com/problems/pascals-triangle-ii/)                                                          | [Pascals_triangle_II.cpp](Pascals_triangle_II.cpp)  
+| 10  | [Rotate array](https://leetcode.com/problems/rotate-array/)                                                          | [Rotate_array.cpp](Rotate_array.cpp)
