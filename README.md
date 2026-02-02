@@ -14,4 +14,4 @@
 | 8   | [Array Partition](https://leetcode.com/problems/array-partition/)                                                             | [Array_partition_I.cpp](Array_partition_I.cpp)                                                                                                              |
 | 9   | [Pascal's triangle_II](https://leetcode.com/problems/pascals-triangle-ii/)                                                          | [Pascals_triangle_II.cpp](Pascals_triangle_II.cpp)  
 | 10  | [Rotate array](https://leetcode.com/problems/rotate-array/)                                                          | [Rotate_array.cpp](Rotate_array.cpp)
-| 11  | Проверка, является ли скобочная последовательность правильной                                                          | [Brackets.cpp.cpp](Brackets.cpp.cpp)
+| 11  | "Проверка скбочной последовательности"                                                          | [Brackets.cpp](Brackets.cpp.cpp)
