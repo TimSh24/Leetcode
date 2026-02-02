@@ -16,4 +16,5 @@
 | 10  | [Rotate array](https://leetcode.com/problems/rotate-array/)                                                          | [Rotate_array.cpp](Rotate_array.cpp)
 | 11  | "Проверка скбочной последовательности"                                                          | [Brackets.cpp](Brackets.cpp.cpp)
 | 12  | "Система непересекающихся множеств. Объединение таблиц"                                                          | [Disjoint_sets_Tables_merging.cpp](Disjoint_sets_Tables_merging.cpp)
+| 13  | "Симуляция обработки сетевых пакетов"                                                          | [Network_packages_processing_simulation.cpp](Network_packages_processing_simulation.cpp)
 
