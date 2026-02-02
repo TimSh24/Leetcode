@@ -1,0 +1,76 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+pair<int,vector<int>> Calc(int n) {
+    vector<int> D(n+1);
+    D[0] = D[1] = 0;
+    for (int i = 2; i <= n; ++i) {
+        D[i] = min({D[i/2] + 1 + i%2, D[i/3] + 1 + i%3, D[i-1] + 1});
+        }
+    int i = n;
+    vector<int> a;
+    while(i >= 2) {
+        if (D[i] == D[i/2] + 1 + i%2) {
+            for (int j = 0; j <= i%2; ++j) {
+                a.push_back(i-j);
+            }
+            i /= 2;
+        }
+        else if (D[i] == D[i/3] + 1 + i%3) {
+            for (int j = 0; j <= i%3; ++j) {
+                a.push_back(i-j);
+            }
+            i /= 3;
+        }
+        else if (D[i] == D[i-1] + 1) {
+            for (int j = 0; j <= 1; ++j) {
+                a.push_back(i-j);
+            }
+            i -= 1;
+        }
+    }
+    a.push_back(i);
+    return make_pair(D[n], a);
+    }
+
+    vector<int> answer(vector<int> &D) {
+        int i = D.size()-1;
+        vector<int> a;
+        while(i>=2) {
+            if (D[i] == D[i/2] + 1 + i%2) {
+                for (int j = 0; j <= i%2; ++j) {
+                    a.push_back(i-j);
+                }
+                i /= 2;
+            }
+            else if (D[i] == D[i/3] + 1 + i%3) {
+                for (int j = 0; j <= i%3; ++j) {
+                    a.push_back(i-j);
+                }
+                i /= 3;
+            }
+            else if (D[i] == D[i-1] + 1) {
+                for (int j = 0; j <= 1; ++j) {
+                    a.push_back(i-j);
+                }
+                i -= 1;
+            }
+        }
+        a.push_back(i);
+        return a;
+    }
+
+
+int main() {
+    int n;
+    cin >> n;
+    auto s = Calc(n);
+    cout << s.first << endl;
+    for(int i = s.second.size() - 1; i>=0; --i) {
+     cout << s.second[i] << ' ';
+    }
+    cout << endl;
+    return 0;
+}
