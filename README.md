@@ -18,5 +18,7 @@
 | 12  | "Система непересекающихся множеств. Объединение таблиц"                                                          | [Disjoint_sets_Tables_merging.cpp](Disjoint_sets_Tables_merging.cpp)
 | 13  | "Симуляция обработки сетевых пакетов"                                                          | [Network_packages_processing_simulation.cpp](Network_packages_processing_simulation.cpp)
 | 14  | "Параллельная обработка"                                                          | [PriorityQueue_Parallel_processing.cpp](PriorityQueue_Parallel_processing.cpp)
+| 15  | "Динамическое программирование. Калькулятор"                                                          | [PriorityQueue_Parallel_processing.cpp](PriorityQueue_Parallel_processing.cpp)
+
 
 
