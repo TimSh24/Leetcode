@@ -20,6 +20,8 @@
 | 14  | "Очередь с приоритетом. Параллельная обработка"                                                          | [PriorityQueue_Parallel_processing.cpp](PriorityQueue_Parallel_processing.cpp)
 | 15  | "Динамическое программирование. Калькулятор"                                                          | [Dynamic_programming_Calculator.txt](Dynamic_programming_Calculator.txt)
 | 16  | "Динамическое программирование. Расстояние редактирования двух трок"                                                          | [Dynamic_programming_Edit_distance.txt](Dynamic_programming_Edit_distance.txt)
+| 17  | "Динамическое программирование. Лестница"                                                          | [Dynamic_programming_Stairs.cpp](Dynamic_programming_Stairs.cpp)
+https://github.com/TimSh24/Leetcode/blob/main/Dynamic_programming_Stairs.cpp
 
 
 
