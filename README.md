@@ -14,7 +14,7 @@
 | 8   | [Array Partition](https://leetcode.com/problems/array-partition/)                                                             | [Array_partition_I.cpp](Array_partition_I.cpp)                                                                                                              |
 | 9   | [Pascal's triangle_II](https://leetcode.com/problems/pascals-triangle-ii/)                                                          | [Pascals_triangle_II.cpp](Pascals_triangle_II.cpp)  
 | 10  | [Rotate array](https://leetcode.com/problems/rotate-array/)                                                          | [Rotate_array.cpp](Rotate_array.cpp)
-| 11  | "Проверка скбочной последовательности"                                                          | [Brackets.cpp](Brackets.cpp.cpp)
+| 11  | "Проверка скобочной последовательности"                                                          | [Brackets.cpp](Brackets.cpp.cpp)
 | 12  | "Система непересекающихся множеств. Объединение таблиц"                                                          | [Disjoint_sets_Tables_merging.cpp](Disjoint_sets_Tables_merging.cpp)
 | 13  | "Симуляция обработки сетевых пакетов"                                                          | [Network_packages_processing_simulation.cpp](Network_packages_processing_simulation.cpp)
 | 14  | "Очередь с приоритетом. Параллельная обработка"                                                          | [PriorityQueue_Parallel_processing.cpp](PriorityQueue_Parallel_processing.cpp)
