@@ -15,3 +15,5 @@
 | 9   | [Pascal's triangle_II](https://leetcode.com/problems/pascals-triangle-ii/)                                                          | [Pascals_triangle_II.cpp](Pascals_triangle_II.cpp)  
 | 10  | [Rotate array](https://leetcode.com/problems/rotate-array/)                                                          | [Rotate_array.cpp](Rotate_array.cpp)
 | 11  | "Проверка скбочной последовательности"                                                          | [Brackets.cpp](Brackets.cpp.cpp)
+| 12  | "Система непересекающихся множеств. Объединение таблиц"                                                          | [Disjoint_sets_Tables_merging.cpp](Disjoint_sets_Tables_merging.cpp)
+
