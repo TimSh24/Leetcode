@@ -19,6 +19,7 @@
 | 13  | "Симуляция обработки сетевых пакетов"                                                          | [Network_packages_processing_simulation.cpp](Network_packages_processing_simulation.cpp)
 | 14  | "Параллельная обработка"                                                          | [PriorityQueue_Parallel_processing.cpp](PriorityQueue_Parallel_processing.cpp)
 | 15  | "Динамическое программирование. Калькулятор"                                                          | [Dynamic_programming_Calculator.txt](Dynamic_programming_Calculator.txt)
+| 16  | "Динамическое программирование. Расстояние редактирования двух трок"                                                          | [Dynamic_programming_Edit_distance.txt](Dynamic_programming_Edit_distance.txt)
 
 
 
